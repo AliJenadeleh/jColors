@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">jColors</string>
+    <string name="exit_ask">آیا مایل به خروج از برنامه هستید؟</string>
+    <string name="Snack_Posetive">بله</string>
+    <string name="btn_Save">ذخیره</string>
+    <string name="btn_Back">انصراف</string>
+    <string name="menu_share">اشتراک گذاری</string>
+    <string name="menu_copy">کپی</string>
+    <string name="menu_delete">حذف</string>
+    <string name="selected_color">رنگ انتخاب شده</string>
+    <string name="color_copied">رنگ مورد نظر در کلیپ بورد کپی شد</string>
+    <string name="string_ok">باشه</string>
+    <string name="string_delete">حذف</string>
+    <string name="ask_delete">آیا از حذف این مورد اطمینان دارید ؟</string>
+    <string name="share_color">اشتراک گذاری رنگ</string>
+    <string name="make_your_color">رنگ دلخواه خودتو درست کن</string>
+</resources>

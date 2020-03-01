@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_below="@id/linearSeeks"
+android:layout_above="@id/linearActions"
+android:layout_width="match_parent"
+android:weightSum="2"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Demo Text"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:id="@+id/txtStyle1"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#333"
+        android:text="Demo Text"
+        android:textSize="15sp"
+        android:id="@+id/txtStyle2"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="#fff"
+            android:text="Demo Text"
+            android:textSize="15sp"
+            android:id="@+id/txtStyle3"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="#333"
+            android:text="Demo Text"
+            android:textSize="15sp"
+            android:id="@+id/txtStyle4"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

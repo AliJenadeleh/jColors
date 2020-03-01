@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/linearSeeks"
+android:layout_marginTop="25dp"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:textSize="28sp"
+    android:textColor="#FF5555"
+    android:text="Red"
+    android:id="@+id/txtRed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatSeekBar
+    android:min="0"
+    android:max="255"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:id="@+id/colorRed"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:textSize="28sp"
+    android:textColor="#55FF55"
+    android:text="Green"
+    android:id="@+id/txtGreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatSeekBar
+    android:min="0"
+    android:max="255"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:id="@+id/colorGreen"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+<TextView
+    android:textSize="28sp"
+    android:textColor="#5555FF"
+    android:text="Blue"
+    android:id="@+id/txtBlue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatSeekBar
+    android:min="0"
+    android:max="255"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:id="@+id/colorBlue"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:textSize="28sp"
+    android:textColor="#322332"
+    android:text="Alpha"
+    android:id="@+id/txtAlpha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatSeekBar
+    android:progress="255"
+    android:min="0"
+    android:max="255"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:id="@+id/colorAlpha"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
